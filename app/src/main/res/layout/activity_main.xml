@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InternetConnectionBroadcastSystem">
-<Button
+<TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="check net connection"
-    android:id="@+id/btnInternetConnection"
-    android:layout_centerHorizontal="true"
+    android:text="Checking Internet Connection"
     android:layout_centerInParent="true"
     />
 
