@@ -26,14 +26,12 @@ class InternetConnectionBroadcastSystem : AppCompatActivity(),
     }
 
     override fun onNetworkConnectionChanger(isConnected: Boolean) {
-      binding.btnInternetConnection.setOnClickListener {
           if (isConnected){
-              Toast.makeText(this, "Tuhada Internet connected Ha Enjoy!!" , Toast.LENGTH_SHORT).show()
+              Toast.makeText(this, "Tuhada Internet connected Ha\nEnjoy!!" , Toast.LENGTH_SHORT).show()
           }
           else{
-              Toast.makeText(this, "Appna Internet Off hs  Kirpa karke ON  karo ji", Toast.LENGTH_SHORT).show()
+              Toast.makeText(this, "Appna Internet Off ha\nKirpa karke ON karo ji", Toast.LENGTH_SHORT).show()
           }
-      }
     }
 
     override fun onStop() {
